@@ -1,0 +1,19 @@
+{
+  "name": "electrical",
+  "version": "1.0.0",
+  "description": "A decentralised web proxy using Wisp & Ultravoilet",
+  "main": "server/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "author": "Shrey719",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@mercuryworkshop/epoxy-transport": "^2.1.26",
+    "@mercuryworkshop/wisp-js": "^0.3.3",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10",
+    "express": "^4.21.1"
+  }
+}
